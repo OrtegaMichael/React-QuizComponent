@@ -8,7 +8,7 @@ class Quiz extends Component {
         this.state = {quiz_position: 1}
     }
 
-    renter() {
+    render() {
         return (
         <div>
             <div className="QuizQuestion">
